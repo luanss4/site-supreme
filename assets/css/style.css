@@ -23,7 +23,9 @@
 @media only screen and (max-device-width: 900px) {
   .navbar-area { width:100%; } 
 }
-
+ul.a {
+  list-style-type: circle;
+}
 .gallery-title
 {
   font-size: 36px;
