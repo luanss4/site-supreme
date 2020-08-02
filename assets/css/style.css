@@ -20,6 +20,20 @@
       01.COMMON css 
 ===========================*/
 
+.carousel .carousel-inner{
+  height:700px
+  }
+  .carousel-inner .carousel-item img{
+  min-height:200px;
+  object-fit:cover
+  }
+  
+  @media(max-width:768px){
+  .carousel .carousel-inner{
+  height:auto
+   }
+  }
+
 @media only screen and (max-device-width: 900px) {
   .navbar-area { width:100%; } 
 }
