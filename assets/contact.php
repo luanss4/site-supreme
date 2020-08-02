@@ -30,6 +30,13 @@
         // Build the email headers.
         $email_headers = "De: $name <$email>";
 
+        echo "teste"
+        echo $recipient;
+        echo $subject;
+        echo $email_content;
+        echo $email_headers;
+
+
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
